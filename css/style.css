@@ -1,0 +1,258 @@
+*{
+    direction: rtl;
+}
+
+
+/* start style page login */
+
+.bg-login{
+    background-image: url("../bg-login.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-login img{
+    display: block;
+    margin: auto;
+    margin-bottom: 86px;
+}
+
+
+
+.login{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.login form{
+    width: 300px;
+    margin-top: 30px;
+}
+
+.login .btn-primary{
+    width: -webkit-fill-available;
+    border-radius: 20px !important;
+    background-color: #ff366c !important;
+    border: none;
+}
+
+
+.login form input{
+    text-align:right;
+    background-color: #f9f9fb !important;
+    border-radius: 20px !important;
+}
+
+
+.login ::placeholder{
+    padding-right:5px;
+    color: #e4e4e6;
+}
+
+
+.login .form-control {
+padding-right: 33px;
+}
+
+
+.login .form-group {
+    position: relative;
+}
+.login .form-group i{
+    position: absolute;
+    right: 12px;
+    top: 11px;
+    color: #d5d5d7;
+}
+
+
+footer{
+    background-color: #ff366c;
+    text-align: center;
+    padding: 13px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* end style page login */
+
+
+
+
+
+
+/* start style page customer */
+
+
+.header-customer .bg-light {
+    background-color: #fff !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-customer{
+    background-color: #fff;
+ 
+ 
+    }
+
+ .header-customer input{
+
+    border-radius: 20px;
+}
+
+.add-user{
+    border: solid 1px #ff366c;
+    padding: 6px 14px;
+    border-radius: 20px;
+    color: #ff366c;
+    margin-left: 21px;
+    width: max-content;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.header-customer ::placeholder{
+    padding-right:5px;
+    color: #b4b4b4;
+}
+
+.add-user i{
+    padding-left: 10px;
+}
+
+.header-customer .form-group {
+    position: relative;
+    margin: 0;
+    width: 430px;
+    margin-left: 15px !important;
+    margin-bottom: 15px;
+}
+
+
+.header-customer .form-group i{
+    position: absolute;
+    left: 15px;
+    top: 11px;
+    color: #ff366c;
+   
+}
+
+.header-customer form input{
+    text-align:right;
+    background-color: #fff !important;
+    border-radius: 20px !important;
+    border: solid 1px #b4b4b4 !important;
+}
+
+.header-customer img{
+    width: 155px;
+    
+}
+
+.logo{
+    float: right;
+    margin-bottom: 15px;
+}
+
+.header-customer .icon{
+    text-align: center;
+    transform: rotate(180deg);
+    font-size: 30px;
+} 
+
+
+.sidebar-custom{
+    background-color:#ff366c;
+    text-align: center;
+    padding: 20px 0px;
+    
+}
+
+.coustom{
+    background-color: #f8f8f8;
+}
+
+.sidebar-custom a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 30px 0px;
+    display: block;
+    position: relative;
+}
+
+
+.sidebar-custom i{
+    display: block;
+    font-size: 30px;
+}
+
+.sidebar-custom a:hover{
+    background-color:#db2e5b ;
+}
+
+.sidebar-custom a:hover::before{
+content: " ";  
+width: 5px;
+height: 100%;
+background-color: #fff;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+
+.coustom .col-lg-2 {
+    padding-right: 0px;
+}
+
+
+.custom-data{
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+
+
+.custom-data table  th {
+    font-size: 15px;
+}
+
+
+.custom-data table td , th {
+    text-align: center;
+    
+}
+
+.custom-data .table tbody td span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color: #00b751;
+}
+
+
+
+
+
+@media screen and (max-width: 708px) {
+   
+    .sidebar-custom a{
+        font-size: 15px;
+    }
+    
+    
+    .sidebar-custom i{
+        font-size: 22px;
+    }
+
+    .custom-data table td , th {
+       padding: 3px; 
+    }
+
+  }
