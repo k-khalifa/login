@@ -7,9 +7,9 @@
 
 .bg-login{
     background-image: url("../bg-login.png");
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .logo-login img{
@@ -20,15 +20,10 @@
 
 
 
-.login{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
 .login form{
     width: 300px;
     margin-top: 30px;
+    margin: auto;
 }
 
 .login .btn-primary{
@@ -48,7 +43,7 @@
 
 .login ::placeholder{
     padding-right:5px;
-    color: #e4e4e6;
+    color: #d5d5d5;
 }
 
 
@@ -64,7 +59,7 @@ padding-right: 33px;
     position: absolute;
     right: 12px;
     top: 11px;
-    color: #d5d5d7;
+    color: #d5d5d5;
 }
 
 
@@ -74,6 +69,9 @@ footer{
     padding: 13px;
     color: #fff;
     font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 /* end style page login */
@@ -168,7 +166,7 @@ footer{
     background-color:#ff366c;
     text-align: center;
     padding: 20px 0px;
-    
+    height: 100%;
 }
 
 .coustom{
@@ -209,6 +207,9 @@ top: 0;
     padding-right: 0px;
 }
 
+.coustom .col-lg-10 {
+    padding-right: 0px;
+}
 
 .custom-data{
     background-color: #fff;
@@ -238,7 +239,13 @@ top: 0;
 
 
 
+@media screen and (max-width: 990px) {
 
+.header-customer .form-group {
+    max-width: 198px;
+}
+
+}
 
 @media screen and (max-width: 708px) {
    
